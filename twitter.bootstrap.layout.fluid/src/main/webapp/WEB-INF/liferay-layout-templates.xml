@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<!DOCTYPE layout-templates PUBLIC "-//Liferay//DTD Layout Templates 6.1.0//EN" "http://www.liferay.com/dtd/liferay-layout-templates_6_1_0.dtd">
+
+<layout-templates>
+	<custom>
+		<layout-template id="twitter.bootstrap.layout.fluid" name="twitter.bootstrap.layout.fluid">
+			<template-path>/twitter.bootstrap.layout.fluid.tpl</template-path>
+			<wap-template-path>/twitter.bootstrap.layout.fluid.wap.tpl</wap-template-path>
+			<thumbnail-path>/twitter.bootstrap.layout.fluid.png</thumbnail-path>
+		</layout-template>
+	</custom>
+</layout-templates>

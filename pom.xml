@@ -24,5 +24,7 @@
 		<module>twitter.bootstrap.theme</module>
 		<module>portlet.sample</module>
     <module>twitter.bootstrap.login</module>
+    <module>twitter.bootstrap.layout.default</module>
+    <module>twitter.bootstrap.layout.fluid</module>
   </modules>
 </project>
