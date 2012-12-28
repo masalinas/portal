@@ -27,5 +27,6 @@
    <module>twitter.bootstrap.login</module>
     <module>twitter.bootstrap.layout.default</module>
     <module>twitter.bootstrap.layout.fluid</module>
+    <module>twitter.bootstrap.layout.homepage</module>
   </modules>
 </project>

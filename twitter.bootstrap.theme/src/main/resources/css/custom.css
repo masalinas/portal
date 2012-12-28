@@ -9,15 +9,14 @@
 
 @import url(font-awesome-ie7.css);
 
-body{
-	padding-top: 80px;
-	background: url("../images/brillant.png") repeat scroll 0 0 transparent;
-}
-
 @import url(bootstrap-responsive.css);
 
+/* Layout styles */
+@import url(layout/homepage.css);
 
+@import url(layout/default.css);
 
+@import url(layout/fluid.css);
 
 
 

@@ -1,4 +1,4 @@
-<div id="main-content" role="main" class="container-fluid">
+<div id="main-content" role="main" class="container-fluid fluid-integration">
 	<div class="portlet-layout row-fluid">
 		<div class="portlet-column span2" id="column-1">
     		<!--Sidebar content-->

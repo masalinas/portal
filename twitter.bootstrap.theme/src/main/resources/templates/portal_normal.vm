@@ -16,7 +16,8 @@
 	$theme.include($top_head_include)
 </head>
 
-<body data-offset="50" data-target="subnav" >
+
+<body data-offset="50" data-target="subnav">
 
 $theme.include($body_top_include)
 
