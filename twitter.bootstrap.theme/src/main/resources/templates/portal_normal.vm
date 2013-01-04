@@ -7,17 +7,30 @@
 <head>
 
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="description" content="Twitter Bootstrap Theme">
+    <meta name="author" content="Thingtrack s.l.">
 		
 	<!--Twitter Bootstrap styles -->
 	#css("$javascript_folder/google-code-prettify/prettify.css")
 		
 	$theme.include($top_head_include)
+	
+	<!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+	
+	<!-- The fav and touch icons -->
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="$images_folder/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="$images_folder/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="$images_folder/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="$images_folder/apple-touch-icon-57-precomposed.png">
+    <link rel="shortcut icon" href="$images_folder/favicon.png">
+
 </head>
 
 
-<body data-offset="50" data-target="subnav">
+<body data-spy="scroll" data-target=".bs-docs-sidebar">
 
 $theme.include($body_top_include)
 
@@ -44,26 +57,6 @@ $theme.include($body_top_include)
 	</div>
 
 	#parse ("$full_templates_path/footer.vm")
-	
-    <section id="footer-menu" >
-		<dir class="container">
-			<div class="row">
-				<div class="span4">
-					<p class="copyright">
-						© Copyright 2012. #language("powered-by")
-						<a href="$company_url" rel="external">$company_name</a>
-                    </p>
-                </div>
-				<div class="span8 hidden-phone">
-					<ul class="pull-right">
-						<li>Privacy Policy<li>
-						<li>Contact us</li>
-						<li>#language("sitemap")<li>
-                    </ul>
-                </div>
-            </div>
-        </dir>
-	</section>	
 	
 </div>
 

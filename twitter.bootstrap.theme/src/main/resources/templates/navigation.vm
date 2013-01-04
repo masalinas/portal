@@ -24,7 +24,7 @@
 #end
 
 <div id="navigation">
-	<div class="navbar navbar-fixed-top">
+	<div class="navbar navbar-inverse navbar-fixed-top">
 		
 		#if ($is_signed_in)
 			#dockbar()

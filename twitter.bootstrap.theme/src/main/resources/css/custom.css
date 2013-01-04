@@ -3,20 +3,10 @@
 
 @import url(bootstrap.css);
 
-@import url(site.css);
-
 @import url(font-awesome.css);
 
-@import url(font-awesome-ie7.css);
+@import url(bootstrap-responsive.css.css);
 
-@import url(bootstrap-responsive.css);
+@import url(docs.css);
 
-/* Layout styles */
-@import url(layout/homepage.css);
-
-@import url(layout/default.css);
-
-@import url(layout/fluid.css);
-
-
-
+@import url(site.css);
